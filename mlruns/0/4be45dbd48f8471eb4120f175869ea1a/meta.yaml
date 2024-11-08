@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/saras/OneDrive/Desktop/IK_mlops_assignments/extras/MLflow_E2E_github/MLflow_E2E/mlruns/0/4be45dbd48f8471eb4120f175869ea1a/artifacts
+end_time: 1731103441383
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4be45dbd48f8471eb4120f175869ea1a
+run_name: able-jay-943
+run_uuid: 4be45dbd48f8471eb4120f175869ea1a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731103441350
+status: 4
+tags: []
+user_id: saras

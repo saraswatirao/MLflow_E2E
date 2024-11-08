@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/saras/OneDrive/Desktop/IK_mlops_assignments/extras/MLflow_E2E_github/MLflow_E2E/mlruns/0/6f28c9c14ff3470fbf35d10d74bbf985/artifacts
+end_time: 1731104389595
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6f28c9c14ff3470fbf35d10d74bbf985
+run_name: trusting-roo-21
+run_uuid: 6f28c9c14ff3470fbf35d10d74bbf985
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731104387042
+status: 3
+tags: []
+user_id: saras
