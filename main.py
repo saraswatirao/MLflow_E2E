@@ -4,8 +4,12 @@ from mlProject.pipeline.stage_02_data_validation import DataValidationTrainingPi
 from mlProject.pipeline.stage_03_data_transformation import DataTransformationTrainingPipeline
 from mlProject.pipeline.stage_04_model_trainer import ModelTrainerTrainingPipeline
 from mlProject.pipeline.stage_05_model_evaluation import ModelEvaluationTrainingPipeline
+import os
+import mlflow
 
-
+#mlflow.set_tracking_uri("https://dagshub.com/saraswatirao/MLflow_E2E.mlflow")
+#os.environ["MLFLOW_TRACKING_USERNAME"] = "saraswatirao"
+#os.environ["MLFLOW_TRACKING_PASSWORD"] = "fb9972d0db8ffd35df299ac5d6316b38cba9fb3a"
 
 
 STAGE_NAME = "Data Ingestion stage"

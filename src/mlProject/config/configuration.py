@@ -103,7 +103,7 @@ class ConfigurationManager:
             all_params=params,
             metric_file_name = config.metric_file_name,
             target_column = schema.name,
-            mlflow_uri="https://dagshub.com/someshnaman/End_to_end_MLOPS_project.mlflow",
+            mlflow_uri="https://dagshub.com/saraswatirao/MLflow_E2E.mlflow",
            
         )
 

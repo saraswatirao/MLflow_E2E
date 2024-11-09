@@ -22,6 +22,9 @@ def training():
 def index():
     if request.method == 'POST':
         try:
+            type = request.form['type'].strip().lower()  # Convert input to lowercase to avoid case sensitivity
+            if type not in ["white", "red"]:
+                return "Invalid type. Please choose either 'white' or 'red'.", 400
             #  reading the inputs given by the user
             fixed_acidity =float(request.form['fixed_acidity'])
             volatile_acidity =float(request.form['volatile_acidity'])
@@ -36,8 +39,8 @@ def index():
             alcohol =float(request.form['alcohol'])
        
          
-            data = [fixed_acidity,volatile_acidity,citric_acid,residual_sugar,chlorides,free_sulfur_dioxide,total_sulfur_dioxide,density,pH,sulphates,alcohol]
-            data = np.array(data).reshape(1, 11)
+            data = [type,fixed_acidity,volatile_acidity,citric_acid,residual_sugar,chlorides,free_sulfur_dioxide,total_sulfur_dioxide,density,pH,sulphates,alcohol]
+            data = np.array(data).reshape(1, 12)
             
             obj = PredictionPipeline()
             predict = obj.predict(data)

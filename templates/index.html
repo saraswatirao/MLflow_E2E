@@ -69,6 +69,16 @@
 		<div class="form-v9-content" style="background-image: url('static/assets/img/form-v9.jpg')">
 			<form class="form-detail" action="/predict" method="post">
 				<h2>Please Fill The Information</h2>
+
+                <div class="form-row">
+					<label for="type">Wine Type:</label>
+					<select name="type" id="type" class="input-text" required>
+						<option value="">Select Type</option>
+						<option value="white">White</option>
+						<option value="red">Red</option>
+					</select>
+				</div>
+                
 				<div class="form-row-total">
 
 					<div class="form-row">
