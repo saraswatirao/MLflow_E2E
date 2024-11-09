@@ -45,8 +45,10 @@ class ModelTrainer:
         train_y = train_data[[self.config.target_column]]
         test_y = test_data[[self.config.target_column]]
 
-        """
+        
         print("bbbbbbbbbbbbbb")
+
+        """
         print(train_x)
         print("jjjjjjjjjjjjjjjjjjj")
         print(test_x)
